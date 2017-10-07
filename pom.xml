@@ -45,7 +45,12 @@
 
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+                <groupId>jaworskg</groupId>
+                <artifactId>angular-frontend</artifactId>
+                <version>${project.version}</version>
+                <scope>runtime</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
