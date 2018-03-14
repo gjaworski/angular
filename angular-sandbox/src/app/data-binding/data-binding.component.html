@@ -1,0 +1,18 @@
+<div>
+  <h3>1. Interpolation example:</h3>
+  <span>{{ name }}</span>
+  <ul>
+    <li *ngFor="let item of list">
+      {{ item }}
+    </li>
+  </ul>
+  <h3>2. Property binding example:</h3>
+  <span [innerHTML] = "name"></span>
+  <ul>
+    <li *ngFor="let item of list" [innerHTML] = "item"></li>
+  </ul>
+  <h3>3. Event binding example:</h3>
+  <span [innerHTML] = "eventResponse"></span><br>
+  <button (click)="consumeEvent()">Event</button>  
+
+</div>

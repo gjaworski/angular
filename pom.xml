@@ -18,6 +18,7 @@
     <modules>
         <module>angular-backend</module>
         <module>angular-frontend</module>
+        <module>angular-sandbox</module>
     </modules>
 
     <developers>
